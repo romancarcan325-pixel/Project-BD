@@ -26,7 +26,7 @@
 - **orders** → **order_items** (один ко многим)
 - **products** → **order_items** (один ко многим)
 - **warehouses** → **stock** (один ко многим)
-- **products** → **stock** (один ко многим) → вместе образуют M:N
+- **products** → **stock** (один ко многим) 
 - **orders** → **payments** (один к одному)
 - **orders** → **delivery** (один к одному)
 - **products** ↔ **warehouses** (многие ко многим) → через stock
